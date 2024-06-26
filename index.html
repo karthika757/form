@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form class="contact-form">
+     <fieldset> 
+        <img src="logo.jpeg" height="80" width="70">
+    <h1>SAIRAM INSTITUTIONS</h1>
+    
+      <div>
+     <label for="Admission">Admission no:</label>
+     <input type="text" name="Admission" id="Admission"></div>
+       <div>
+      <label for="fname">Firstname:</label> 
+      <input type="text" name="fname" id="fname"></div>
+       <div>
+      <label for="lname">Lastname:</label> 
+      <input type="text" name="lname" id="lname"></div>
+       <div> 
+      <label for="Date">Date of birth:</label> 
+      <input type="datetime-local" name="Date" id="Date"></div>
+       <div>
+      <label for="email">E-mail:</label> 
+      <input type="email" name="email" id="email"></div>
+       <div class="radio">
+      <label>Gender:</label>
+            <input type="radio"  name="Gender"id="male" value="male" required>
+            <label for="male"> Male</label>
+       
+            <input type="radio"name="Gender" id="female" value="female" required>
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+        <label for="fname">Father's name:</label> 
+        <input type="text" name="fnmae" id="fname">
+        
+        <label for="occ">Occupation:</label> 
+        <input type="text" name="occ" id="occ"></div>
+      
+       <div>
+        <label for="mname">Mother's name:</label> 
+        <input type="text" name="mname" id="mname"></div>
+        <div>
+        <label for="email">Occupation:</label> 
+        <input type="text" name="email" id="email"></div>
+        <div>
+        <label for="email">Phone No:</label> 
+      <input type="number" name="email" id="email" placeholder="+91"></div>
+
+        <div>
+      <label for="about" class="add">Address:</label> 
+      <textarea name="about" id="about" rows="4" cols="20"></textarea></div>
+      
+       <div>
+      <label for="dept">Department:</label> 
+      <input type="text" list="data" id="dept">
+      <datalist id="data">
+        <option value ="CSE"></option>
+        <option value ="ECE"></option>
+        <option value ="AIDS"></option>
+        <option value ="IT"></option>
+        <option value ="EEE"></option>
+        <option value ="Mechanical"></option>
+      </datalist> </div>
+      
+      <label for="email">Upload your Image:</label> <br>
+      <div>
+      <label for="email">Choose file:</label> 
+      <input type="file" name="email" id="email"></div>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+       </form>
+    </div>
+</body>
+</html>
